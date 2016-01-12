@@ -8,4 +8,7 @@
     "type": "github",
     "url": "https://github.com/unbxd/hello.js.git"
   },
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
 }
