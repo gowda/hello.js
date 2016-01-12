@@ -4,6 +4,12 @@ A simple project to demonstrate the implementation of “hello, world” program
 
 ## Usage
 
+Install dependencies:
+```bash
+$ npm install
+```
+
+Run application:
 ```bash
 $ node app.js
 ```

@@ -3,3 +3,6 @@
 
 # OSX custom attribute store
 .DS_Store
+
+# node modules directory
+node_modules

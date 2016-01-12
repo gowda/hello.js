@@ -1,0 +1,14 @@
+{
+  "name": "hello.js",
+  "version": "0.7.2",
+  "description": "A simple project to demonstrate the implementation of “hello, world” program in JavaScript",
+  "author": "Unbxd Inc. <dev@unbxd.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/unbxd/hello.js.git"
+  },
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}
