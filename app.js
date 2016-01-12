@@ -10,5 +10,10 @@ var program = require('commander');
     });
   } else {
     hello.say_hello(program.args[0]);
+    if (program.args.length > 1) {
+      console.log('');
+      console.log("Enclose command-line input in quotes to include spaces in name:");
+      console.log("%s \"%s\"", program._name, program.args.join(" "));
+    }
   }
 })();
