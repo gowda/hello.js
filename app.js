@@ -1,3 +1,7 @@
 var hello = require('./lib/hello');
 
-hello();
+(function() {
+  hello.ask_name(function(name) {
+    hello.say_hello(name);
+  });
+})();
