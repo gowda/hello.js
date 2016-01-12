@@ -1,0 +1,5 @@
+# backup files created by emacs, by default
+*~
+
+# OSX custom attribute store
+.DS_Store
