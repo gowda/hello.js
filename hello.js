@@ -9,7 +9,7 @@ var readline = require('readline');
   rlInterface.setPrompt('Please enter your name: ');
   rlInterface.prompt(true);
   rlInterface.on('line', function(line) {
-    var name = line.replace(/\s*/g, '');
+    var name = line.replace(/^\s*(.*?)\s*$/g, '$1');
     if (name.length == 0) {
       name = 'world';
     }
